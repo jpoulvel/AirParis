@@ -1,7 +1,7 @@
 import { Line } from "react-chartjs-2";
 
 export const GraphicComponent = ({data, type}) => {
-  console.log("data", data)
+  console.log("data", data) //DEBUG
 
   return (
       <div style={{height: "100%", width: "100%"}}>
